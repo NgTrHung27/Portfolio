@@ -9,12 +9,108 @@ html {
 body {
   @apply bg-zinc-900 text-zinc-50;
 }
+/*--------------------------*\
+* TYPOGRAPHY
+\*--------------------------*/
+.headline-1 {
+  @apply max-w-max;
+  background: -webkit-linear-gradient(
+    0deg,
+    #fafafa,
+    #a1a1aa
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
+.headline-1 {
+  @apply text-5xl font-semibold leading-tight lg:text-[55px] lg:leading-[1.15];
+}
+.headline-2 {
+  @apply text-3xl font-semibold lg:text-4xl lg:leading-tight;
+}
+
+.title-1{
+  @apply text-[22px] font-normal 
+}
+
+/*--------------------------*\
+* UTILITIES
+\*--------------------------*/
+
+.material-symbols-rounded {
+  @apply h-[1em] w-[1em] overflow-hidden;
+  font-variant-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;
+}
+
+.container {
+  @apply mx-auto px-4 lg:px-8 xl:max-w-6xl;
+}
+
+.img-box {
+  @apply overflow-hidden bg-zinc-700;
+}
+
+.img-cover {
+  @apply h-full w-full object-cover;
+}
+
+.section {
+  @apply pt-20 lg:pt-32;
+}
 /*--------------------------*\
 * COMPONENTS
 \*--------------------------*/
 
 /* Menu btn*/
 .menu-btn {
-  @apply grid h-10 w-10 place-items-center rounded-xl bg-zinc-50/10 ring-1 ring-inset ring-zinc-50/[0.02] backdrop-blur-2xl hover:bg-zinc-50/15;
+  @apply grid h-10 w-10 place-items-center rounded-xl bg-zinc-50/10 ring-1 ring-inset ring-zinc-50/[0.02] backdrop-blur-2xl transition-[transform,background-color] hover:bg-zinc-50/15 active:scale-95;
+}
+
+/* Navbar */
+.navbar {
+  @apply invisible absolute right-0 top-full isolate mt-2 min-w-40 scale-90 rounded-2xl bg-zinc-50/10 p-2 opacity-0 ring-1 ring-inset ring-zinc-50/5 blur-sm backdrop-blur-2xl transition-[opacity,transform,filter] md:visible md:static md:mt-0 md:flex md:scale-100 md:items-center md:opacity-100 md:blur-0;
+}
+
+.navbar.active {
+  @apply visible scale-100 opacity-100 blur-0;
+}
+
+.nav-link {
+  @apply grid h-9 items-center px-4 text-sm font-medium tracking-wide text-zinc-50/50 transition-colors hover:text-zinc-50;
+}
+
+.nav-link.active {
+  @apply text-zinc-900 duration-500;
+}
+
+.navbar .active-box {
+  @apply absolute left-2 right-2 top-2 -z-10 h-9 rounded-lg bg-zinc-50 transition-[top,left] duration-500;
+}
+
+/* Button */
+.btn {
+  @apply flex h-9 max-w-max items-center gap-2 rounded-xl px-4 text-sm font-medium ring-1 ring-inset ring-zinc-50/5 transition-[background-color];
+}
+.btn-secondary {
+  @apply bg-zinc-50 text-zinc-900 active:bg-zinc-50/80;
+}
+.btn .material-symbols-rounded {
+  @apply text-[18px];
+}
+
+.btn:has(.material-symbols-rounded) {
+  @apply pr-3;
+}
+
+.btn-primary {
+  @apply h-11 bg-sky-400 text-zinc-950 hover:bg-sky-300 active:bg-sky-400;
+}
+
+.btn-outline {
+  @apply h-11 bg-zinc-800 hover:bg-zinc-700 active:bg-zinc-800;
 }
