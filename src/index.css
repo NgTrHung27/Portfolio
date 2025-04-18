@@ -14,11 +14,7 @@ body {
 \*--------------------------*/
 .headline-1 {
   @apply max-w-max;
-  background: -webkit-linear-gradient(
-    0deg,
-    #fafafa,
-    #a1a1aa
-  );
+  background: -webkit-linear-gradient(0deg, #fafafa, #a1a1aa);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -30,8 +26,8 @@ body {
   @apply text-3xl font-semibold lg:text-4xl lg:leading-tight;
 }
 
-.title-1{
-  @apply text-[22px] font-normal 
+.title-1 {
+  @apply text-[22px] font-normal;
 }
 
 /*--------------------------*\
@@ -41,10 +37,10 @@ body {
 .material-symbols-rounded {
   @apply h-[1em] w-[1em] overflow-hidden;
   font-variant-settings:
-    'FILL' 0,
-    'wght' 400,
-    'GRAD' 0,
-    'opsz' 24;
+    "FILL" 0,
+    "wght" 400,
+    "GRAD" 0,
+    "opsz" 24;
 }
 
 .container {
@@ -113,4 +109,17 @@ body {
 
 .btn-outline {
   @apply h-11 bg-zinc-800 hover:bg-zinc-700 active:bg-zinc-800;
+}
+
+/* Text field */
+.label {
+  @apply mb-2 block to-zinc-200 text-sm font-normal;
+}
+
+.text-field {
+  @apply block w-full rounded-xl bg-zinc-800 px-3 py-3 text-sm outline-none ring-inset ring-transparent transition-shadow hover:ring-zinc-50/5 focus:right-2 focus:ring-sky-400;
+}
+
+.text-field::placeholder {
+  @apply to-zinc-400;
 }
