@@ -17,10 +17,11 @@ import App from "./App.jsx";
 /**
  * CSS Links
  */
+import "lenis/dist/lenis.css";
 import "./index.css";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <App />
-  </StrictMode>
+  </StrictMode>,
 );
