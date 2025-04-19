@@ -10,6 +10,7 @@ ratings.fill({
   icon: 'star',
   style: { fontVariationSettings: '"FILL" 1' },
 });
+
 const ReviewCard = ({ content, imgSrc, name, company }) => {
   return (
     <div className="flex min-w-[320px] flex-col rounded-xl bg-zinc-800 p-5 lg:min-w-[420px]">
