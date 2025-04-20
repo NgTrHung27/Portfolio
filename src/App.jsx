@@ -21,13 +21,14 @@ gsap.registerPlugin(useGSAP, ScrollTrigger); // register the hook to avoid React
  * Components
  */
 import About from "./components/About";
+import { Achievements } from "./components/Achievements";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import { Header } from "./components/Header";
 import Hero from "./components/Hero";
-import { Review } from "./components/Review";
+import Project from "./components/Project";
 import Skill from "./components/Skill";
-import Work from "./components/Work";
+import { WorkExperiences } from "./components/WorkExperiences";
 const App = () => {
   useGSAP(() => {
     const elements = gsap.utils.toArray(".reveal-up");
@@ -53,8 +54,9 @@ const App = () => {
         <Hero />
         <About />
         <Skill />
-        <Work />
-        <Review />
+        <Project />
+        <WorkExperiences />
+        <Achievements />
         <Contact />
       </main>
       <Footer />
