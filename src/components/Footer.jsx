@@ -17,12 +17,16 @@ const sitemap = [
     href: "#about",
   },
   {
-    label: "Work",
-    href: "#work",
+    label: "Project",
+    href: "#Project",
   },
   {
-    label: "Reviews",
-    href: "#reviews",
+    label: "Experiences",
+    href: "#experiences",
+  },
+  {
+    label: "Achievements",
+    href: "#achievements",
   },
   {
     label: "Contact me",

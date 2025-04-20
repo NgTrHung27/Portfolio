@@ -1,14 +1,4 @@
-/**
- * @copyright 2025 chunhuwq
- * @license Apache-2.0
- */
-
-/**
- * Components`
- */
-
-import ProjectCard from "./ProjectCard";
-const works = [
+export const projectsData = [
   {
     imgSrc: "/images/StudyAbroadApp.png",
     title: "Study Abroad Consulting",
@@ -70,30 +60,3 @@ const works = [
     projectLink: "https://github.com/NgTrHung27/AblyChat_DemoFlutter",
   },
 ];
-
-const Work = () => {
-  return (
-    <section
-      id="work"
-      className="section"
-    >
-      <div className="container">
-        <h2 className="headline-2 reveal-up mb-8">My Project highlights</h2>
-        <div className="grid grid-cols-[repeat(auto-fill,_minmax(280px,_1fr))] gap-x-4 gap-y-5">
-          {works.map(({ imgSrc, title, tags, projectLink }, key) => (
-            <ProjectCard
-              key={key}
-              imgSrc={imgSrc}
-              title={title}
-              tags={tags}
-              projectLink={projectLink}
-              className="reveal-up"
-            />
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-};
-
-export default Work;
