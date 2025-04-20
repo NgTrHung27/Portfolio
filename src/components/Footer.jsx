@@ -33,23 +33,11 @@ const sitemap = [
 const socials = [
   {
     label: "GitHub",
-    href: "https://www.github.com/codewithsadee-org",
+    href: "https://github.com/NgTrHung27",
   },
   {
     label: "LinkedIn",
-    href: "https://www.linkedin.com/in/codewithsadee",
-  },
-  {
-    label: "Twitter X",
-    href: "https://x.com/codewithsadee_",
-  },
-  {
-    label: "Instagram",
-    href: "https://www.instagram.com/codewithsadee",
-  },
-  {
-    label: "CodePen",
-    href: "https://codepen.io/codewithsadee",
+    href: "https://www.linkedin.com/in/ngtrhung27",
   },
 ];
 
@@ -62,12 +50,42 @@ const Footer = () => {
             <h2 className="headline-1 reveal-up mb-8 lg:max-w-[12ch]">
               Let&apos;s work together today!
             </h2>
-            <ButtonPrimary
-              href="mailto:trunghungpq456@gmail.com"
-              label="Start project"
-              icon="chevron_right"
-              className="reveal-up"
-            />
+
+            {/* Email button with copy fallback */}
+            <div className="flex flex-col">
+              <ButtonPrimary
+                href="mailto:trunghungpq456@gmail.com"
+                label="Start project"
+                icon="chevron_right"
+                classes="reveal-up"
+                onClick={(e) => {
+                  e.preventDefault();
+
+                  // Try multiple approaches
+                  const email = "trunghungpq456@gmail.com";
+
+                  try {
+                    // First attempt: window.location
+                    window.location.href = `mailto:${email}`;
+
+                    // Set a timeout to check if it failed (will run if page doesn't navigate away)
+                    setTimeout(() => {
+                      // Copy email as fallback
+                      navigator.clipboard.writeText(email).then(() => {
+                        alert("Email address copied to clipboard: " + email);
+                      });
+                    }, 500);
+                  } catch (err) {
+                    // If all else fails, show the email
+                    console.log(err);
+                    alert("Please email me at: " + email);
+                  }
+                }}
+              />
+              <span className="reveal-up mt-2 text-xs text-zinc-400">
+                Or email directly at: trunghungpq456@gmail.com
+              </span>
+            </div>
           </div>
           <div className="grid grid-cols-2 gap-4 lg:pl-20">
             <div>
@@ -109,9 +127,9 @@ const Footer = () => {
             className="logo reveal-up"
           >
             <img
-              src="/images/logo.svg"
-              width={40}
-              height={49}
+              src="/images/logo.png"
+              width={60}
+              height={60}
               alt="Logo"
               className="reveal-up"
             />

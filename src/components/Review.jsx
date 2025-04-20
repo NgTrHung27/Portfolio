@@ -23,67 +23,46 @@ import ReviewCard from "./ReviewCard";
 const reviews = [
   {
     content:
-      "Exceptional web development! Delivered a seamless, responsive site with clean code and great UX.",
+      "IELTS \n - 11/2024 \n - Total Score: 5.0 - with the ability to: \n + Prociency in Speaking communication (6.0). \n + Moderate Procient in reading reference documents.",
     name: "Sophia Ramirez",
-    imgSrc: "/images/people-1.jpg",
+    imgSrc: "/images/ielts.png",
     company: "PixelForge",
   },
   {
     content:
-      "Impressive work! Fast loading times, intuitive design, and flawless backend integration. Highly recommend.",
+      "DEVELOPING 101: INTO THE INDUSTRY \n - 12/2021 \n - The Digibeet \n - First Prizes",
     name: "Ethan Caldwell",
-    imgSrc: "/images/people-2.jpg",
+    imgSrc: "/images/The Digibeet.png",
     company: "NexaWave",
   },
   {
     content:
-      "Outstanding developer! Built a robust site with perfect functionality. Efficient and detail-oriented.",
-    name: "Liam Bennett",
-    imgSrc: "/images/people-3.jpg",
-    company: "CodeCraft",
-  },
-  {
-    content:
-      "Creative and skilled! Produced a modern, user-friendly site that exceeded expectations. Great communication.",
-    name: "Noah Williams",
-    imgSrc: "/images/people-4.jpg",
-    company: "BrightWeb",
-  },
-  {
-    content:
-      "Professional work! Delivered on time, with a polished design and smooth user experience. Top-notch developer.",
-    name: "Ava Thompson",
-    imgSrc: "/images/people-5.jpg",
-    company: "TechMosaic",
-  },
-  {
-    content:
-      "Excellent project execution! High-quality code, responsive design, and exceptional problem-solving skills.",
-    name: "Jonathan",
-    imgSrc: "/images/people-6.jpg",
-    company: "Skyline Digital",
+      "TOP 20 STUDENTS OF THE ENTIRE INFORMATION TECHNOLOGY FACULTY. \n - 03/2025 \n - HUFLIT \n - TOP 20",
+    name: "Ethan Caldwell",
+    imgSrc: "/images/top20_HUFLIT.jpeg",
+    company: "NexaWave",
   },
 ];
 
 export const Review = () => {
-  useGSAP(() => {
-    gsap.to(".scrub-slide", {
-      scrollTrigger: {
-        trigger: ".scrub-slide",
-        start: "-200% 80%",
-        end: "400% bottom 80%",
-        scrub: true,
-      },
-      x: "-1000",
-    });
-  });
+  // useGSAP(() => {
+  //   gsap.to(".scrub-slide", {
+  //     scrollTrigger: {
+  //       trigger: ".scrub-slide",
+  //       start: "-200% 80%",
+  //       end: "400% bottom 80%",
+  //       scrub: true,
+  //     },
+  //     x: "-1000",
+  //   });
+  // });
   return (
     <section
       id="reviews"
       className="section overflow-hidden"
     >
       <div className="container">
-        <h2 className="headline-2 reveal-up mb-8">What our customers say</h2>
+        <h2 className="headline-2 reveal-up mb-8">Certificates & Award</h2>
         <div className="scrub-slide flex w-fit items-stretch gap-3">
           {reviews.map(({ content, name, imgSrc, company }, key) => (
             <ReviewCard
@@ -92,7 +71,7 @@ export const Review = () => {
               imgSrc={imgSrc}
               company={company}
               content={content}
-              className="reveal-up"
+              className="reveal-up max-w-[5ch]"
             />
           ))}
         </div>
