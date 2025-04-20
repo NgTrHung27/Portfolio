@@ -6,12 +6,12 @@
 /**
  * Node Modules
  */
-import { useState } from 'react';
+import { useState } from "react";
 /**
  *
  * Components
  */
-import Navbar from './Navbar';
+import Navbar from "./Navbar";
 
 export const Header = () => {
   const [navOpen, setNavOpen] = useState(false);
@@ -19,11 +19,14 @@ export const Header = () => {
     <header className="fixed left-0 top-0 z-40 flex h-20 w-full items-center bg-gradient-to-b from-zinc-900 to-zinc-900/0">
       <div className="mx-auto flex w-full max-w-screen-2xl items-center justify-between px-4 md:grid md:grid-cols-[1fr_3fr_1fr] md:px-6">
         <h1>
-          <a href="/" className="logo">
+          <a
+            href="/"
+            className="logo"
+          >
             <img
-              src="/images/logo.svg"
-              width={40}
-              height={40}
+              src="/images/logo.png"
+              width={60}
+              height={60}
               alt="Trung Hưng"
             />
           </a>
@@ -34,7 +37,7 @@ export const Header = () => {
             onClick={() => setNavOpen((prev) => !prev)}
           >
             <span className="material-symbols-rounded">
-              {navOpen ? 'close' : 'menu'}
+              {navOpen ? "close" : "menu"}
             </span>
           </button>
           <Navbar navOpen={navOpen} />

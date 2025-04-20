@@ -10,40 +10,64 @@
 import ProjectCard from "./ProjectCard";
 const works = [
   {
-    imgSrc: "/images/project-1.jpg",
-    title: "Full stack music app",
-    tags: ["API", "MVC", "Development"],
-    projectLink: "https://musify-5al0.onrender.com/",
+    imgSrc: "/images/StudyAbroadApp.png",
+    title: "Study Abroad Consulting",
+    tags: [
+      "Dart/Flutter",
+      "BloC",
+      "RESTful API",
+      "GeminiAI",
+      "socket.io",
+      "FCM",
+    ],
+    projectLink: "https://github.com/NgTrHung27/StudyAbroad_App",
   },
   {
-    imgSrc: "/images/project-2.jpg",
-    title: "Free stock photo app",
-    tags: ["API", "SPA"],
-    projectLink: "https://pixstock-official.vercel.app/",
+    imgSrc: "/images/CloudWorkApp.png",
+    title: "CloudWORK",
+    tags: [
+      "Dart/Flutter",
+      "BloC",
+      "RESTful API",
+      "Calendar",
+      "Quill",
+      "Google Map",
+      "FCM",
+    ],
+    projectLink: "https://apps.apple.com/vn/app/cloudgo/id6474986122",
   },
   {
-    imgSrc: "/images/project-3.jpg",
-    title: "Recipe app",
-    tags: ["Development", "API"],
-    projectLink: "",
+    imgSrc: "/images/CloudEventApp.png",
+    title: "CloudEVENT",
+    tags: [
+      "Dart/Flutter",
+      "BloC",
+      "RESTful API",
+      "Ticket",
+      "FCM",
+      "Location",
+      "QR Code Scanner",
+    ],
+    projectLink: "https://apps.apple.com/vn/app/cloudgo/id6474986122",
   },
   {
-    imgSrc: "/images/project-4.jpg",
-    title: "Real state website",
-    tags: ["Web-design", "Development"],
-    projectLink: "https://github.com/codewithsadee-org/wealthome",
+    imgSrc: "/images/StudyAbroadWeb.png",
+    title: "Study Abroad Consulting",
+    tags: [
+      "Typescript",
+      "Next JS 13",
+      "Tailwind CSS",
+      "ShadCN U",
+      "Auth.js",
+      "FCM",
+    ],
+    projectLink: "https://github.com/NgTrHung27/StudyAbroad_Admin",
   },
   {
-    imgSrc: "/images/project-5.jpg",
-    title: "eCommerce website",
-    tags: ["eCommerce", "Development"],
-    projectLink: "https://github.com/codewithsadee/anon-ecommerce-website",
-  },
-  {
-    imgSrc: "/images/project-6.jpg",
-    title: "vCard Personal portfolio",
-    tags: ["Web-design", "Development"],
-    projectLink: "https://github.com/codewithsadee/vcard-personal-portfolio",
+    imgSrc: "/images/AblyChat.png",
+    title: "Ably Chat",
+    tags: ["Dart/Flutter", "socket.io"],
+    projectLink: "https://github.com/NgTrHung27/AblyChat_DemoFlutter",
   },
 ];
 
@@ -54,7 +78,7 @@ const Work = () => {
       className="section"
     >
       <div className="container">
-        <h2 className="headline-2 reveal-up mb-8">My portfolio highlights</h2>
+        <h2 className="headline-2 reveal-up mb-8">My Project highlights</h2>
         <div className="grid grid-cols-[repeat(auto-fill,_minmax(280px,_1fr))] gap-x-4 gap-y-5">
           {works.map(({ imgSrc, title, tags, projectLink }, key) => (
             <ProjectCard
