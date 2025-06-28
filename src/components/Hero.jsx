@@ -7,10 +7,16 @@
  *
  * Components
  */
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import { ButtonOutline, ButtonPrimary } from "./Button";
 const Hero = () => {
   const [showCVModal, setShowCVModal] = useState(false);
+
+  // Create a stable CV URL with cache busting
+  const cvUrl = useMemo(
+    () => `files/TrungHungMobileDevCV.pdf?v=${Date.now()}`,
+    [],
+  );
   return (
     <section
       id="home"
@@ -41,7 +47,7 @@ const Hero = () => {
           <div className="flex items-center gap-3">
             {/* DownLoad CV */}
             <a
-              href="files/TrungHungMobileDevCV.pdf"
+              href={cvUrl}
               download="TrungHungMobileDevCV.pdf"
             >
               <ButtonPrimary
@@ -78,6 +84,7 @@ const Hero = () => {
           </figure>
         </div>
       </div>
+
       {/* CV Preview Modal */}
       {showCVModal && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-75 p-4">
@@ -93,7 +100,7 @@ const Hero = () => {
             </div>
             <div className="flex-1 overflow-hidden">
               <iframe
-                src="files/TrungHungMobileDevCV.pdf"
+                src={cvUrl}
                 className="h-full w-full"
                 title="CV Preview"
               ></iframe>
