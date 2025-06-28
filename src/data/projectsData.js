@@ -1,7 +1,9 @@
 export const projectsData = [
+  //------------APP------------\\
   {
-    imgSrc: "/images/StudyAbroadApp.png",
+    imgSrc: "/images/project-study-broad-app.png",
     title: "Study Abroad Consulting",
+    type: "app",
     tags: [
       "Dart/Flutter",
       "BloC",
@@ -13,8 +15,9 @@ export const projectsData = [
     projectLink: "https://github.com/NgTrHung27/StudyAbroad_App",
   },
   {
-    imgSrc: "/images/CloudWorkApp.png",
+    imgSrc: "/images/project-cloud-work-app.png",
     title: "CloudWORK",
+    type: "app",
     tags: [
       "Dart/Flutter",
       "BloC",
@@ -27,8 +30,9 @@ export const projectsData = [
     projectLink: "https://apps.apple.com/vn/app/cloudgo/id6474986122",
   },
   {
-    imgSrc: "/images/CloudEventApp.png",
+    imgSrc: "/images/project-cloud-event-app.png",
     title: "CloudEVENT",
+    type: "app",
     tags: [
       "Dart/Flutter",
       "BloC",
@@ -41,22 +45,69 @@ export const projectsData = [
     projectLink: "https://apps.apple.com/vn/app/cloudgo/id6474986122",
   },
   {
-    imgSrc: "/images/StudyAbroadWeb.png",
+    imgSrc: "/images/project-wns-app.png",
+    title: "Work Force Nutrition [Internal]",
+    type: "app",
+    tags: [
+      "Dart/Flutter",
+      "BloC",
+      "Azure AD/MSAL",
+      "GoRouter",
+      "Hive",
+      "MVVM",
+      "GetIt",
+    ],
+    projectLink: "https://dinhduongsuckhoe.ajinomoto.com.vn/",
+  },
+  {
+    imgSrc: "/images/project-pms-app.png",
+    title: "Personal Management System [Internal]",
+    type: "app",
+    tags: [
+      "Dart/Flutter",
+      "Riverpod",
+      "Flutter Hooks",
+      "GoRouter",
+      "Dio",
+      "Clean Architecture",
+    ],
+    projectLink: "https://suckhoegiadinhviet.ajinomoto.com.vn/",
+  },
+  {
+    imgSrc: "/images/project-ably-chat.png",
+    title: "Ably Chat",
+    type: "app",
+    tags: ["Dart/Flutter", "socket.io"],
+    projectLink: "https://github.com/NgTrHung27/AblyChat_DemoFlutter",
+  },
+
+  //------------WEB------------\\
+  {
+    imgSrc: "/images/project-study-abroad-web.png",
     title: "Study Abroad Consulting",
+    type: "web",
     tags: [
       "Typescript",
       "Next JS 13",
       "Tailwind CSS",
-      "ShadCN U",
+      "ShadCN",
       "Auth.js",
       "FCM",
     ],
     projectLink: "https://github.com/NgTrHung27/StudyAbroad_Admin",
   },
   {
-    imgSrc: "/images/AblyChat.png",
-    title: "Ably Chat",
-    tags: ["Dart/Flutter", "socket.io"],
-    projectLink: "https://github.com/NgTrHung27/AblyChat_DemoFlutter",
+    imgSrc: "/images/project-hung-portfolio-web.png",
+    title: "Hung Dev Portfolio",
+    type: "web",
+    tags: ["Typescript", "TailwindCSS", "CSS"],
+    projectLink: "https://github.com/NgTrHung27/Portfolio",
+  },
+  {
+    imgSrc: "/images/project-mq-portfolio-web.png",
+    title: "Minh Quý Media Portfolio",
+    type: "web",
+    tags: ["Typescript", "CSS"],
+    projectLink: "https://minhquyportfolio.netlify.app",
   },
 ];

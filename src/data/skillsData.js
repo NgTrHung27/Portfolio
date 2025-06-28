@@ -8,29 +8,24 @@ export const skillsData = [
     category: "Programming Languages",
     skills: [
       {
-        imgSrc: "/images/dart.png",
+        imgSrc: "/images/skill-lang-dart.png",
         label: "Dart",
         desc: "Multi-platform development",
       },
       {
-        imgSrc: "/images/java_logo.webp",
+        imgSrc: "/images/skill-lang-java.webp",
         label: "Java",
         desc: "Android Development",
       },
       {
-        imgSrc: "/images/javascript.svg",
+        imgSrc: "/images/skill-lang-javascript.svg",
         label: "JavaScript",
         desc: "Interaction",
       },
       {
-        imgSrc: "/images/typescript_logo.png",
+        imgSrc: "/images/skill-lang-typescript.png",
         label: "TypeScript",
         desc: "Type-safe JavaScript",
-      },
-      {
-        imgSrc: "/images/CSharp_logo.png",
-        label: "C#",
-        desc: ".NET Development",
       },
     ],
   },
@@ -38,45 +33,24 @@ export const skillsData = [
     category: "Frameworks & Libraries",
     skills: [
       {
-        imgSrc: "/images/flutter_logo.svg",
+        imgSrc: "/images/skill-framework-flutter.svg",
         label: "Flutter",
         desc: "UI Toolkit",
       },
       {
-        imgSrc: "/images/react.svg",
+        imgSrc: "/images/skill-framework-react.svg",
         label: "React",
         desc: "UI Framework",
       },
       {
-        imgSrc: "/images/nextjs_icon.svg",
+        imgSrc: "/images/skill-framework-nextjs.svg",
         label: "NextJS",
         desc: "React Framework",
       },
       {
-        imgSrc: "/images/nodejs.svg",
-        label: "NodeJS",
-        desc: "JavaScript Runtime",
-      },
-
-      {
-        imgSrc: "/images/dotNet.png",
-        label: ".NET",
-        desc: "Development Platform",
-      },
-      {
-        imgSrc: "/images/tailwindcss.svg",
+        imgSrc: "/images/skill-framework-tailwindcss.svg",
         label: "TailwindCSS",
         desc: "Utility-first CSS",
-      },
-      {
-        imgSrc: "/images/bootstrap_logo.png",
-        label: "Bootstrap",
-        desc: "CSS Framework",
-      },
-      {
-        imgSrc: "/images/css3.svg",
-        label: "CSS",
-        desc: "User Interface",
       },
     ],
   },
@@ -84,17 +58,17 @@ export const skillsData = [
     category: "Databases",
     skills: [
       {
-        imgSrc: "/images/mongodb.svg",
+        imgSrc: "/images/dtb-mongodb.svg",
         label: "MongoDB",
         desc: "NoSQL Database",
       },
       {
-        imgSrc: "/images/sqlServer_logo.png",
+        imgSrc: "/images/dtb-sql-server.png",
         label: "SQL Server",
         desc: "Relational Database",
       },
       {
-        imgSrc: "/images/oracle_logo.png",
+        imgSrc: "/images/dtb-oracle.png",
         label: "Oracle",
         desc: "Enterprise Database",
       },
@@ -104,27 +78,26 @@ export const skillsData = [
     category: "Software Design",
     skills: [
       {
-        imgSrc: "/images/architecture_logo.png",
+        imgSrc: "/images/softdev-architecture.png",
         label: "Clean, MVVM",
         desc: "Architecture",
       },
       {
-        imgSrc: "/images/oop_icon.jpg",
+        imgSrc: "/images/softdev-oop.jpg",
         label: "OOP",
         desc: "Programming Principle",
       },
       {
-        imgSrc: "/images/RESTful_API_logo.png",
-        label: "RESTful API",
+        imgSrc: "/images/softdev_api.png",
         desc: "Design Principle",
       },
       {
-        imgSrc: "/images/bloc_logo.png",
-        label: "BloC, Provider, setState",
+        imgSrc: "/images/softdev-bloc.png",
+        label: "BloC, Riverpod, Provider, setState",
         desc: "Flutter State Management",
       },
       {
-        imgSrc: "/images/design_pattern_logo.png",
+        imgSrc: "/images/softdev-design_pattern.png",
         label: "MVC, Repository, Singleton, Strategy",
         desc: "Design Pattern",
       },
@@ -134,37 +107,37 @@ export const skillsData = [
     category: "Tools & Platforms",
     skills: [
       {
-        imgSrc: "/images/firebase_logo.svg",
+        imgSrc: "/images/tool-firebase.svg",
         label: "Firebase",
         desc: "Backend Service",
       },
       {
-        imgSrc: "/images/postman_icon.svg",
+        imgSrc: "/images/tool-postman.svg",
         label: "Postman",
         desc: "API Testing",
       },
       {
-        imgSrc: "/images/git_logo.png",
+        imgSrc: "/images/tool-git.png",
         label: "Git",
         desc: "Version Control",
       },
       {
-        imgSrc: "/images/xcode_logo.png",
+        imgSrc: "/images/tool-xcode.png",
         label: "Xcode",
         desc: "iOS Development",
       },
       {
-        imgSrc: "/images/figma.svg",
+        imgSrc: "/images/tool-figma.svg",
         label: "Figma",
         desc: "Design Tool",
       },
       {
-        imgSrc: "/images/jira_logo.svg",
+        imgSrc: "/images/tool-jira.svg",
         label: "Jira",
         desc: "Project Management",
       },
       {
-        imgSrc: "/images/GG_PlayConsole_logo.avif",
+        imgSrc: "/images/tool-gg_play-console.avif",
         label: "Google Play Console",
         desc: "App Distribution",
       },
