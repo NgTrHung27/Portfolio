@@ -1,3 +1,3 @@
 # Portfolio
 https://hungdevportfolio.netlify.app/
-![Uploading screencapture-hungdevportfolio-netlify-app-2025-08-04-16_49_33.png…]()
+![myportfolio](https://github.com/user-attachments/assets/6dc3d397-20c9-4272-91cd-f2cef2e48bb4)
