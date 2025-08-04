@@ -89,6 +89,7 @@ export const skillsData = [
       },
       {
         imgSrc: "/images/softdev_api.png",
+        label: "Restful API",
         desc: "Design Principle",
       },
       {
