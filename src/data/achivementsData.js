@@ -30,7 +30,7 @@ export const achievementsData = [
   },
   {
     title: "TOP 20 STUDENTS OF THE ENTIRE INFORMATION TECHNOLOGY FACULTY.",
-    time: "12/2021",
+    time: "3/2025",
     organization: "HUFLIT",
     content: "TOP 20",
     imgSrc: "/images/cert-top20_huflit.jpeg",
