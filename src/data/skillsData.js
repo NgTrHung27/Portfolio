@@ -155,7 +155,7 @@ export const skillsData = [
       },
       {
         imgSrc: "/images/tool-apple-store-connect.webp",
-        label: "Google Play Console",
+        label: "App Store Connect.",
         desc: "IOS App Distribution",
       },
     ],
