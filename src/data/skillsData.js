@@ -13,19 +13,24 @@ export const skillsData = [
         desc: "Multi-platform development",
       },
       {
-        imgSrc: "/images/skill-lang-java.webp",
-        label: "Java",
-        desc: "Android Development",
-      },
-      {
-        imgSrc: "/images/skill-lang-javascript.svg",
-        label: "JavaScript",
-        desc: "Interaction",
-      },
-      {
         imgSrc: "/images/skill-lang-typescript.png",
         label: "TypeScript",
         desc: "Type-safe JavaScript",
+      },
+      {
+        imgSrc: "/images/skill-lang-swift.png",
+        label: "Swift",
+        desc: "IOS Development",
+      },
+      {
+        imgSrc: "/images/skill-lang-python.png",
+        label: "Python",
+        desc: "Data Science & Automation",
+      },
+      {
+        imgSrc: "/images/skill-lang-java.webp",
+        label: "Java",
+        desc: "Android Development",
       },
     ],
   },
@@ -39,9 +44,15 @@ export const skillsData = [
       },
       {
         imgSrc: "/images/skill-framework-react.svg",
-        label: "React",
-        desc: "UI Framework",
+        label: "React Native",
+        desc: "Cross-platform Mobile Development",
       },
+      {
+        imgSrc: "/images/skill-framework-react.svg",
+        label: "ReactJS",
+        desc: "UI Library",
+      },
+
       {
         imgSrc: "/images/skill-framework-nextjs.svg",
         label: "NextJS",
@@ -58,8 +69,8 @@ export const skillsData = [
     category: "Databases",
     skills: [
       {
-        imgSrc: "/images/dtb-mongodb.svg",
-        label: "MongoDB",
+        imgSrc: "/images/dtb-postgresql.png",
+        label: "PostgreSQL",
         desc: "NoSQL Database",
       },
       {
@@ -140,7 +151,12 @@ export const skillsData = [
       {
         imgSrc: "/images/tool-gg_play-console.avif",
         label: "Google Play Console",
-        desc: "App Distribution",
+        desc: "Android App Distribution",
+      },
+      {
+        imgSrc: "/images/tool-apple-store-connect.webp",
+        label: "Google Play Console",
+        desc: "IOS App Distribution",
       },
     ],
   },
