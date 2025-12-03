@@ -1,15 +1,52 @@
 export const projectsData = [
   //------------APP------------\\
   {
-    imgSrc: "/images/project-roomrise-app.jpg",
-    title: "Roomrise Solution",
+    imgSrc: "/images/project-stock-app.png",
+    title: "Daily Option Profit - Stock Signals",
     type: "app",
-    tags: ["Dart/Flutter", "BloC", "Calendar", "GoRouter", "MVVM", "GetIt"],
-    projectLink: "https://roomrise.vn/",
+    tags: [
+      "Dart/Flutter",
+      "BloC",
+      "GoRouter",
+      "RESTful API",
+      "MVVM",
+      "GetIt",
+      "Firebase Cloud Messaging",
+    ],
+    projectLink: "https://stock-ui-client.mostcreativeworld.com/en/home",
+    companyName: "DirectFunder (US)",
+    companyLink: "https://directfunder.com/",
+    features:
+      "Trade Signal, Ledger Entry, Earning, Stock Ranking, Search Symbol, AI Sentiment, Watchlist,...",
+    description:
+      "Application providing stock signals and research tools to support US stock investment.",
   },
   {
+    imgSrc: "/images/project-roomrise-app.png",
+    title: "Roomrise PMS",
+    type: "app",
+    tags: [
+      "Dart/Flutter",
+      "BloC",
+      "GoRouter",
+      "Calendar",
+      "Hive",
+      "GetIt",
+      "MVVM Architecture",
+      "RESTful API",
+      "Firebase Cloud Messaging",
+    ],
+    projectLink: "https://roomrise.vn/",
+    companyName: "AnGia Residence (VN)",
+    companyLink: "https://www.facebook.com/canhodulichANGIARESIDENCE",
+    features: "Dashboard, Message, Report, Calendar, Booking,...",
+    description:
+      "Centralized management of OTA channels (Booking, Agoda,...), property & booking management, messages, revenue optimization, comprehensive reporting & dynamic module by permission.",
+  },
+
+  {
     imgSrc: "/images/project-pms-app.png",
-    title: "Personal Management System - Ajinomoto VN",
+    title: "Personal Management System",
     type: "app",
     tags: [
       "Dart/Flutter",
@@ -22,21 +59,34 @@ export const projectsData = [
       "Clean Architecture",
     ],
     projectLink: "https://suckhoegiadinhviet.ajinomoto.com.vn/",
+    companyName: "Ajinomoto Viet Nam",
+    companyLink: "https://www.ajinomoto.com.vn/vi",
+    features: "Chatbot, Health Tracking, Nutrition, Goal, Account Linking",
+    description:
+      "Application providing comprehensive tracking, nutrition management, goal setting, and wellness advice for users' health journey.",
   },
   {
     imgSrc: "/images/project-wns-app.png",
-    title: "Work Force Nutrition - Ajinomoto VN [Internal]",
+    title: "Work Force Nutrition",
     type: "app",
     tags: [
       "Dart/Flutter",
       "BloC",
       "Azure AD/MSAL",
       "GoRouter",
+      "RESTful API",
       "Hive",
       "MVVM",
       "GetIt",
+      "Repository Pattern",
     ],
     projectLink: "https://dinhduongsuckhoe.ajinomoto.com.vn/",
+    companyName: "Ajinomoto Viet Nam",
+    companyLink: "https://www.ajinomoto.com.vn/vi",
+    features:
+      "Health Information/Handbook, Meal Planning/Tracking, Notifications, Azure AD Authentication, Personal Health Metrics, Weather-based Health Reminders",
+    description:
+      "Hybrid application for 3000 Ajinomoto Vietnam factory workers to register for health check-ups, nutrition, view menus and order meals.",
   },
 
   {
@@ -53,21 +103,12 @@ export const projectsData = [
       "FCM",
     ],
     projectLink: "https://apps.apple.com/vn/app/cloudgo/id6474986122",
-  },
-  {
-    imgSrc: "/images/project-cloud-event-app.png",
-    title: "CloudEVENT",
-    type: "app",
-    tags: [
-      "Dart/Flutter",
-      "BloC",
-      "RESTful API",
-      "Ticket",
-      "FCM",
-      "Location",
-      "QR Code Scanner",
-    ],
-    projectLink: "https://apps.apple.com/vn/app/cloudgo/id6474986122",
+    companyName: "CloudGO (VN)",
+    companyLink: "https://cloudgo.vn/",
+    features:
+      "To-do list, Ticket, Charts, Report, Quick Access, SLA, Goal, Achievements",
+    description:
+      "Application for businesses to handle check-in, timekeeping, project task tracking, tickets, requests, assignments, and recording achievements and goals.",
   },
   {
     imgSrc: "/images/project-study-broad-app.png",
@@ -77,20 +118,18 @@ export const projectsData = [
       "Dart/Flutter",
       "BloC",
       "RESTful API",
+      "Localization (i18n)",
       "GeminiAI",
       "socket.io",
       "FCM",
     ],
     projectLink: "https://github.com/NgTrHung27/StudyAbroad_App",
+    companyName: "CEMC CO., LTD (VN)",
+    companyLink: "https://www.facebook.com/mecltd.edu/",
+    features: "Counseling, Messaging, School Updates",
+    description:
+      "Application providing study-abroad information from multinational partner schools, along with counseling, messaging, and school updates.",
   },
-  {
-    imgSrc: "/images/project-ably-chat.png",
-    title: "Ably Chat",
-    type: "app",
-    tags: ["Dart/Flutter", "socket.io"],
-    projectLink: "https://github.com/NgTrHung27/AblyChat_DemoFlutter",
-  },
-
   //------------WEB------------\\
   {
     imgSrc: "/images/project-study-abroad-web.png",
