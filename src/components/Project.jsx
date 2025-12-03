@@ -27,17 +27,35 @@ const Project = () => {
         </h3>
         {appProjects.length > 0 && (
           <div>
-            <div className="grid grid-cols-[repeat(auto-fill,_minmax(280px,_1fr))] gap-x-4 gap-y-5">
-              {appProjects.map(({ imgSrc, title, tags, projectLink }, key) => (
-                <ProjectCard
-                  key={`app-${key}`}
-                  imgSrc={imgSrc}
-                  title={title}
-                  tags={tags}
-                  projectLink={projectLink}
-                  className="reveal-up"
-                />
-              ))}
+            <div className="grid grid-cols-1 gap-x-6 gap-y-6 md:grid-cols-2">
+              {appProjects.map(
+                (
+                  {
+                    imgSrc,
+                    title,
+                    tags,
+                    projectLink,
+                    companyName,
+                    companyLink,
+                    features,
+                    description,
+                  },
+                  key,
+                ) => (
+                  <ProjectCard
+                    key={`app-${key}`}
+                    imgSrc={imgSrc}
+                    title={title}
+                    tags={tags}
+                    projectLink={projectLink}
+                    companyName={companyName}
+                    companyLink={companyLink}
+                    features={features}
+                    description={description}
+                    className="reveal-up"
+                  />
+                ),
+              )}
             </div>
           </div>
         )}
@@ -47,17 +65,35 @@ const Project = () => {
         </h3>
         {webProjects.length > 0 && (
           <div className="mb-12">
-            <div className="grid grid-cols-[repeat(auto-fill,_minmax(280px,_1fr))] gap-x-4 gap-y-5">
-              {webProjects.map(({ imgSrc, title, tags, projectLink }, key) => (
-                <ProjectCard
-                  key={`web-${key}`}
-                  imgSrc={imgSrc}
-                  title={title}
-                  tags={tags}
-                  projectLink={projectLink}
-                  className="reveal-up"
-                />
-              ))}
+            <div className="grid grid-cols-1 gap-x-6 gap-y-6 md:grid-cols-2">
+              {webProjects.map(
+                (
+                  {
+                    imgSrc,
+                    title,
+                    tags,
+                    projectLink,
+                    companyName,
+                    companyLink,
+                    features,
+                    description,
+                  },
+                  key,
+                ) => (
+                  <ProjectCard
+                    key={`web-${key}`}
+                    imgSrc={imgSrc}
+                    title={title}
+                    tags={tags}
+                    projectLink={projectLink}
+                    companyName={companyName}
+                    companyLink={companyLink}
+                    features={features}
+                    description={description}
+                    className="reveal-up"
+                  />
+                ),
+              )}
             </div>
           </div>
         )}

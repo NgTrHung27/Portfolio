@@ -17,21 +17,21 @@ export const skillsData = [
         label: "TypeScript",
         desc: "Type-safe JavaScript",
       },
-      {
-        imgSrc: "/images/skill-lang-swift.png",
-        label: "Swift",
-        desc: "IOS Development",
-      },
-      {
-        imgSrc: "/images/skill-lang-python.png",
-        label: "Python",
-        desc: "Data Science & Automation",
-      },
-      {
-        imgSrc: "/images/skill-lang-java.webp",
-        label: "Java",
-        desc: "Android Development",
-      },
+      // {
+      //   imgSrc: "/images/skill-lang-swift.png",
+      //   label: "Swift",
+      //   desc: "IOS Development",
+      // },
+      // {
+      //   imgSrc: "/images/skill-lang-python.png",
+      //   label: "Python",
+      //   desc: "Data Science & Automation",
+      // },
+      // {
+      //   imgSrc: "/images/skill-lang-java.webp",
+      //   label: "Java",
+      //   desc: "Android Development",
+      // },
     ],
   },
   {
@@ -52,12 +52,6 @@ export const skillsData = [
         label: "ReactJS",
         desc: "UI Library",
       },
-
-      {
-        imgSrc: "/images/skill-framework-nextjs.svg",
-        label: "NextJS",
-        desc: "React Framework",
-      },
       {
         imgSrc: "/images/skill-framework-tailwindcss.svg",
         label: "TailwindCSS",
@@ -65,26 +59,26 @@ export const skillsData = [
       },
     ],
   },
-  {
-    category: "Databases",
-    skills: [
-      {
-        imgSrc: "/images/dtb-postgresql.png",
-        label: "PostgreSQL",
-        desc: "NoSQL Database",
-      },
-      {
-        imgSrc: "/images/dtb-sql-server.png",
-        label: "SQL Server",
-        desc: "Relational Database",
-      },
-      {
-        imgSrc: "/images/dtb-oracle.png",
-        label: "Oracle",
-        desc: "Enterprise Database",
-      },
-    ],
-  },
+  // {
+  //   category: "Databases",
+  //   skills: [
+  //     {
+  //       imgSrc: "/images/dtb-postgresql.png",
+  //       label: "PostgreSQL",
+  //       desc: "NoSQL Database",
+  //     },
+  //     {
+  //       imgSrc: "/images/dtb-sql-server.png",
+  //       label: "SQL Server",
+  //       desc: "Relational Database",
+  //     },
+  //     {
+  //       imgSrc: "/images/dtb-oracle.png",
+  //       label: "Oracle",
+  //       desc: "Enterprise Database",
+  //     },
+  //   ],
+  // },
   {
     category: "Software Design",
     skills: [
@@ -100,7 +94,7 @@ export const skillsData = [
       },
       {
         imgSrc: "/images/softdev_api.png",
-        label: "Restful API",
+        label: "RESTful API",
         desc: "Design Principle",
       },
       {
@@ -121,7 +115,7 @@ export const skillsData = [
       {
         imgSrc: "/images/tool-firebase.svg",
         label: "Firebase",
-        desc: "Backend Service",
+        desc: "Notification Service",
       },
       {
         imgSrc: "/images/tool-postman.svg",
