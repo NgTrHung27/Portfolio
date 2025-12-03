@@ -1,3 +1,3 @@
 # Portfolio
 https://hungdevportfolio.netlify.app/
-![myportfolio](https://github.com/user-attachments/assets/6dc3d397-20c9-4272-91cd-f2cef2e48bb4)
+<img width="1900" height="7736" alt="myportfolio" src="https://github.com/user-attachments/assets/99aaca69-3619-4901-aae2-d88142646867" />
