@@ -36,7 +36,8 @@ export const projectsData = [
       "RESTful API",
       "Firebase Cloud Messaging",
     ],
-    projectLink: "https://roomrise.vn/",
+    projectLink:
+      "https://play.google.com/store/apps/details?id=com.sunshine.roomrise",
     companyName: "AnGia Residence (VN)",
     companyLink: "https://www.facebook.com/canhodulichANGIARESIDENCE",
     features: "Dashboard, Message, Report, Calendar, Booking,...",
