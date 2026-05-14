@@ -15,37 +15,22 @@ export const skillsData = [
       {
         imgSrc: "/images/skill-lang-typescript.png",
         label: "TypeScript",
-        desc: "Type-safe JavaScript",
+        desc: "React Native & Web",
       },
-      // {
-      //   imgSrc: "/images/skill-lang-swift.png",
-      //   label: "Swift",
-      //   desc: "IOS Development",
-      // },
-      // {
-      //   imgSrc: "/images/skill-lang-python.png",
-      //   label: "Python",
-      //   desc: "Data Science & Automation",
-      // },
-      // {
-      //   imgSrc: "/images/skill-lang-java.webp",
-      //   label: "Java",
-      //   desc: "Android Development",
-      // },
     ],
   },
   {
-    category: "Frameworks & Libraries",
+    category: "Mobile Frameworks & Libraries",
     skills: [
       {
         imgSrc: "/images/skill-framework-flutter.svg",
         label: "Flutter",
-        desc: "UI Toolkit",
+        desc: "Primary Framework",
       },
       {
         imgSrc: "/images/skill-framework-react.svg",
-        label: "React Native",
-        desc: "Cross-platform Mobile Development",
+        label: "React Native (Expo)",
+        desc: "Cross-platform Mobile",
       },
       {
         imgSrc: "/images/skill-framework-react.svg",
@@ -59,69 +44,189 @@ export const skillsData = [
       },
     ],
   },
-  // {
-  //   category: "Databases",
-  //   skills: [
-  //     {
-  //       imgSrc: "/images/dtb-postgresql.png",
-  //       label: "PostgreSQL",
-  //       desc: "NoSQL Database",
-  //     },
-  //     {
-  //       imgSrc: "/images/dtb-sql-server.png",
-  //       label: "SQL Server",
-  //       desc: "Relational Database",
-  //     },
-  //     {
-  //       imgSrc: "/images/dtb-oracle.png",
-  //       label: "Oracle",
-  //       desc: "Enterprise Database",
-  //     },
-  //   ],
-  // },
   {
-    category: "Software Design",
+    category: "Architecture & Patterns",
     skills: [
       {
         imgSrc: "/images/softdev-architecture.png",
-        label: "Clean, MVVM",
+        label: "Clean Architecture, MVVM",
         desc: "Architecture",
       },
       {
-        imgSrc: "/images/softdev-oop.jpg",
-        label: "OOP",
-        desc: "Programming Principle",
+        imgSrc: "/images/softdev-solid.jpg",
+        label: "SOLID Principles",
+        desc: "Design Principles",
       },
       {
-        imgSrc: "/images/softdev_api.png",
-        label: "RESTful API",
-        desc: "Design Principle",
-      },
-      {
-        imgSrc: "/images/softdev-bloc.png",
-        label: "BloC, Riverpod, Provider, setState",
-        desc: "Flutter State Management",
+        imgSrc: "/images/softdev-injectable.png",
+        label: "DI (GetIt/Injectable)",
+        desc: "Dependency Injection",
       },
       {
         imgSrc: "/images/softdev-design_pattern.png",
-        label: "MVC, Repository, Singleton, Strategy",
-        desc: "Design Pattern",
+        label: "Repository, Singleton",
+        desc: "Design Patterns",
+      },
+    ],
+  },
+  {
+    category: "State Management",
+    skills: [
+      {
+        imgSrc: "/images/softdev-bloc.png",
+        label: "BLoC / Cubit",
+        desc: "Flutter State Management",
+      },
+      {
+        imgSrc: "/images/softdev-bloc.png",
+        label: "Riverpod",
+        desc: "Flutter State Management",
+      },
+      {
+        imgSrc: "/images/softdev-bloc.png",
+        label: "Provider",
+        desc: "Flutter State Management",
+      },
+      {
+        imgSrc: "/images/skill-framework-react.svg",
+        label: "Context API",
+        desc: "React State Management",
+      },
+    ],
+  },
+  {
+    category: "Performance & Security",
+    skills: [
+      {
+        imgSrc: "/images/tool-flutter-devtools.svg",
+        label: "Flutter DevTools",
+        desc: "Memory/CPU Profiling",
+      },
+      {
+        imgSrc: "/images/skill-framework-flutter.svg",
+        label: "Isolate",
+        desc: "Concurrency",
+      },
+      {
+        imgSrc: "/images/softdev-ssl.png",
+        label: "SSL Pinning",
+        desc: "API Security",
+      },
+      {
+        imgSrc: "/images/softdev-obfuscation.png",
+        label: "Code Obfuscation",
+        desc: "App Protection",
+      },
+      // {
+      //   imgSrc: "/images/softdev-security.svg",
+      //   label: "RASP",
+      //   desc: "Runtime App Self-Protection",
+      // },
+    ],
+  },
+  {
+    category: "Testing & CI/CD",
+    skills: [
+      {
+        imgSrc: "/images/tool-mockito.png",
+        label: "Unit/Widget Testing",
+        desc: "Mockito",
+      },
+      {
+        imgSrc: "/images/tool-github-actions.svg",
+        label: "GitHub Actions",
+        desc: "CI/CD Pipeline",
+      },
+      {
+        imgSrc: "/images/tool-fastlane.png",
+        label: "Fastlane",
+        desc: "App Deployment",
+      },
+      {
+        imgSrc: "/images/tool-shorebird.png",
+        label: "Shorebird",
+        desc: "Code Push",
+      },
+    ],
+  },
+  {
+    category: "Native & Hybrid",
+    skills: [
+      {
+        imgSrc: "/images/tool-native.svg",
+        label: "Method Channel",
+        desc: "Swift / Kotlin basics",
+      },
+      {
+        imgSrc: "/images/tool-webview.svg",
+        label: "WebView Integration",
+        desc: "Hybrid Development",
+      },
+    ],
+  },
+  {
+    category: "API & Storage",
+    skills: [
+      {
+        imgSrc: "/images/softdev_api.png",
+        label: "RESTful API",
+        desc: "API Design",
+      },
+      // {
+      //   imgSrc: "/images/softdev_api.png",
+      //   label: "WebSockets",
+      //   desc: "Real-time Communication",
+      // },
+      // {
+      //   imgSrc: "/images/tool-appwrite.png",
+      //   label: "Appwrite",
+      //   desc: "BaaS",
+      // },
+      {
+        imgSrc: "/images/tool-hive.png",
+        label: "Hive",
+        desc: "Local Database",
+      },
+      {
+        imgSrc: "/images/tool-secure-storage.png",
+        label: "SecureStorage",
+        desc: "Encrypted Storage",
+      },
+      {
+        imgSrc: "/images/tool-share-preferences.png",
+        label: "SharedPreferences",
+        desc: "Key-Value Storage",
+      },
+    ],
+  },
+  {
+    category: "App Distribution",
+    skills: [
+      {
+        imgSrc: "/images/tool-gg_play-console.avif",
+        label: "Google Play Console",
+        desc: "Android Distribution",
+      },
+      {
+        imgSrc: "/images/tool-apple-store-connect.webp",
+        label: "App Store Connect",
+        desc: "iOS Distribution",
+      },
+      {
+        imgSrc: "/images/tool-testflight.png",
+        label: "TestFlight",
+        desc: "iOS Beta Testing",
+      },
+      {
+        imgSrc: "/images/tool-firebase.svg",
+        label: "Firebase App Distribution",
+        desc: "Beta Testing",
       },
     ],
   },
   {
     category: "Tools & Platforms",
     skills: [
-      {
-        imgSrc: "/images/tool-firebase.svg",
-        label: "Firebase",
-        desc: "Notification Service",
-      },
-      {
-        imgSrc: "/images/tool-postman.svg",
-        label: "Postman",
-        desc: "API Testing",
-      },
       {
         imgSrc: "/images/tool-git.png",
         label: "Git",
@@ -143,15 +248,75 @@ export const skillsData = [
         desc: "Project Management",
       },
       {
-        imgSrc: "/images/tool-gg_play-console.avif",
-        label: "Google Play Console",
-        desc: "Android App Distribution",
+        imgSrc: "/images/tool-postman.svg",
+        label: "Postman",
+        desc: "API Testing",
       },
       {
-        imgSrc: "/images/tool-apple-store-connect.webp",
-        label: "App Store Connect",
-        desc: "IOS App Distribution",
+        imgSrc: "/images/tool-firebase.svg",
+        label: "Firebase",
+        desc: "Notification Service",
       },
     ],
   },
+  {
+    category: "Domain Experience",
+    skills: [
+      {
+        imgSrc: "/images/domain-stock.svg",
+        label: "Stock Trading",
+        desc: "Financial Applications",
+      },
+      {
+        imgSrc: "/images/domain-ota.svg",
+        label: "Property / OTA",
+        desc: "Booking, Agoda, Hospitality",
+      },
+      {
+        imgSrc: "/images/domain-health.svg",
+        label: "Health & Nutrition",
+        desc: "Healthcare Apps",
+      },
+      {
+        imgSrc: "/images/domain-crm.svg",
+        label: "CRM / Work Management",
+        desc: "Enterprise Solutions",
+      },
+      // {
+      //   imgSrc: "/images/domain-edu.svg",
+      //   label: "Education",
+      //   desc: "Study Abroad Consulting",
+      // },
+    ],
+  },
+  {
+    category: "Soft Skills",
+    skills: [
+      {
+        imgSrc: "/images/soft-critical.svg",
+        label: "Critical Thinking",
+        desc: "Problem Analysis",
+      },
+      {
+        imgSrc: "/images/soft-presentation.png",
+        label: "Presentation",
+        desc: "Communication",
+      },
+      {
+        imgSrc: "/images/soft-problem.svg",
+        label: "Problem Solving",
+        desc: "Analytical Skills",
+      },
+    ],
+  },
+  // {
+  //   category: "DSA",
+  //   skills: [
+  //     {
+  //       imgSrc: "/images/dsa-leetcode.png",
+  //       label: "LeetCode",
+  //       desc: "Pointers, Sliding Window, Hashing",
+  //     },
+  //   ],
+  // },
 ];

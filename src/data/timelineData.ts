@@ -7,7 +7,7 @@ export const timelineData: TimelineItemType[] = [
     position: "MOBILE DEVELOPER",
     description:
       "Responsible for operating and programming applications independently. \nImplement outsourcing projects and ensure timely completion. \nApply diverse technologies in projects.",
-    time: "May 2025 -> Present",
+    time: "May 2025 -> Feb 2026",
   },
   {
     id: 2,

@@ -5,6 +5,6 @@ export const aboutItemsData = [
   },
   {
     label: "Years of experience",
-    number: "1.5",
+    number: "~2",
   },
 ];
