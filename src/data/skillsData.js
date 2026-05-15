@@ -53,7 +53,7 @@ export const skillsData = [
         desc: "Architecture",
       },
       {
-        imgSrc: "/images/softdev-solid.jpg",
+        imgSrc: "/images/softdev-solid.png",
         label: "SOLID Principles",
         desc: "Design Principles",
       },
@@ -78,7 +78,7 @@ export const skillsData = [
         desc: "Flutter State Management",
       },
       {
-        imgSrc: "/images/softdev-bloc.png",
+        imgSrc: "/images/softdev-riverpod.png",
         label: "Riverpod",
         desc: "Flutter State Management",
       },
